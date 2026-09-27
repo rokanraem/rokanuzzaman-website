@@ -22,8 +22,8 @@ export default function Hero() {
         <div data-reveal className="hero__frame">
           <Image
             className="hero__photo"
-            src="/profile.webp"
-            alt="Portrait of Muhammad Rokanuzzaman Mollah"
+            src={site.photo.src}
+            alt={site.photo.alt}
             width={1200}
             height={1200}
             sizes="340px"
